@@ -4,22 +4,23 @@
 
 <py-env>
     - numpy
-    - pandas
 </py-env>
 
 <py-script>
-import pandas as pd
 from time import sleep
-d = {'col1': [1, 2], 'col2': [3, 4]}
-df = pd.DataFrame(data=d)
-df
+print('Inicio1')
+for n in range(1000):
+    print(n)
+print('Fim1')
 </py-script>
+    
 
+<div id="write-test"></div>
 <!--Usando https://www.jsdelivr.com/github
-Converte de: https://github.com/CaioMizerkowski/learn-in-public-pyscript/blob/bdfa96d85920f5668646075041b8a77baeb2ce13/basic_script.py
-Para: https://cdn.jsdelivr.net/gh/CaioMizerkowski/learn-in-public-pyscript@bdfa96d85920f5668646075041b8a77baeb2ce13/basic_script.py
+Converte de: https://github.com/CaioMizerkowski/learn-in-public-pyscript/blob/main/basic_script.py
+Para: https://cdn.jsdelivr.net/gh/CaioMizerkowski/learn-in-public-pyscript@main/basic_script.py
 -->
-<py-script src="https://cdn.jsdelivr.net/gh/CaioMizerkowski/learn-in-public-pyscript@bdfa96d85920f5668646075041b8a77baeb2ce13/basic_script.py">
+<py-script src="https://cdn.jsdelivr.net/gh/CaioMizerkowski/learn-in-public-pyscript@main/basic_script.py">
 </py-script>
 
 </html>
