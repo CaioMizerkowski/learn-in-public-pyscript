@@ -1,5 +1,5 @@
 import numpy as np
 while True:
     s = np.random.normal()
-    print(s)
+    pyscript.write(s)
     sleep(0.5)
